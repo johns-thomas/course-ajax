@@ -9,6 +9,7 @@
         e.preventDefault();
         responseContainer.innerHTML = '';
         searchedForText = searchField.value;
+        
     });
     
 })();
