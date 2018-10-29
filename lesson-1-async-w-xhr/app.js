@@ -1,4 +1,5 @@
 (function () {
+    
     const form = document.querySelector('#search-form');
     const searchField = document.querySelector('#search-keyword');
     let searchedForText;
@@ -9,4 +10,5 @@
         responseContainer.innerHTML = '';
         searchedForText = searchField.value;
     });
+    
 })();
